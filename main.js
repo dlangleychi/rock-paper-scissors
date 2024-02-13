@@ -67,7 +67,7 @@ const playGame = (output) => {
         computerScore.textContent = computerWins.toString();
     }
     const promptMove = document.createElement('p');
-    promptMove.textContent += 'Make your move.';
+    promptMove.textContent += 'Make your choice: ';
     textOutput.appendChild(promptMove);
 };
 
